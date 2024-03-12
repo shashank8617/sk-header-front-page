@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <!-- <form action="">
+        <label for="">first name</label>
+        <input type="text">
+        <label for="">second name</label>
+        <input type="text" name="" id="">
+    </form> -->
+
+    <!-- blank=creates another tab self=data entered in the same tab -->
+
+    <form action="" method="post" target="_blank" autocomplete="off">    
+        <fieldset style="background-color: antiquewhite;">
+            <legend><form action="form">form</form></legend>
+        <table bgcolor="yellow">
+        <tr>
+            <td>
+                <label for="f">first name</label>
+            </td>
+            <td><input type="text" id="f" name="f" placeholder="first name" required></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="n">last name</label>
+            </td>
+            <td><input type="text" id="n" name="n" placeholder="lastname" required></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="no">NUMBER</label>
+            </td>
+                <td>
+                <input type="number" id="no" name="no" placeholder="NUMBER" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="e">email id</label>
+            </td>
+            <td><input type="email" id="e" name="e" placeholder="email" required>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="address">address</label></td>
+            <td><textarea  id="" name="address" cols="30" rows="10"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><label for="DOB">dob</label></td>
+            <td><input type="datetime-local" name="dob" id="dob"></td>
+        </tr>
+
+        <tr>
+            <td>
+                <label for="pass">password</label>
+            </td>
+            <td>
+                <input type="password" id="pass" name="pass">
+            </td>
+        </tr>
+
+
+        <tr>
+            <td><label for="gen">gender</label></td>
+            <td>
+                <input type="radio" id="gen" name="gen" value="male">male
+                <input type="radio" id="gen" name="gen" value="female">female
+                <input type="radio" id="gen" name="gen" value="others">others
+            </td>
+          
+        </tr>
+
+        <tr>
+            <td>
+          </td>
+            <td>
+                <input type="checkbox" id="spo" name="spo">cricket
+                <input type="checkbox" id="spo" name="spo">volleyball
+                <input type="checkbox" id="spo" name="spo">football
+            </td>
+        </tr>
+        
+        <tr>
+            <td><label for="">choose a file</label>
+            </td>
+            <td><input type="file" id="file" name="file name"></td>
+        </tr>
+                 <label for="spo">sports</label>
+
+         <tr>
+            <td>
+                <label for="place">place</label>
+            </td>
+            <td>
+                <select name="place" id="place">
+                    <option value=""></option>
+                    <option value="australia">austrila</option>
+                    <option value="france">france</option>
+                    <option value="usa">usa</option>
+                    <option value="india" selected>india</option>
+                </select>
+            </td>
+         </tr>
+
+         <tr>
+            <td>
+                <label for="">Dada</label>
+            </td>
+            <td>
+                <input type="image" src="../HTML/images/VISHNU DADA.jpeg" height="50px" width="50px">
+            </td>
+         </tr>
+
+         <tr>
+            <td>
+                <label for="color"></label>
+            </td>
+            <td><input type="color" id="color" name="color">
+            </td>
+         </tr>
+
+         <tr>
+            <td><label for="hid">hidden</label></td>
+            <td>
+                <input type="hidden" id="hid" name="hid">
+            </td>
+         </tr>
+
+
+         <tr>
+            <td>
+                <label for="">select an range</label>
+            </td>
+            <td>
+                <input type="range">
+            </td>
+         </tr>
+
+         <tr>
+            <td><label for="ser">search</label></td>
+            <td><input type="search" id="ser" name="ser"></td>
+         </tr>
+
+         <tr>
+            <td><label for="url">url</label></td>
+            <td><input type="url" id="url" name="url" ></td>
+         </tr>
+
+         <tr>
+            <td>
+                <label for="tech">technologies</label>
+            </td>
+            <td>
+                <input list="techs" id="tech" name="tech">
+
+                <datalist id="techs">
+                    <option value="html">html</option>
+                    <option value="css">css</option>
+                    <option value="node js">node js</option>
+                    <option value="react js">react js</option>
+                    <option value="js">js</option>
+                </datalist>
+            </td>
+         </tr>
+
+
+
+         
+
+        <tr>
+            <td>
+                <button type="submit">submit</button>
+            </td>
+            <td>
+                <button type="reset">reset</button>
+            </td>
+        </tr>
+
+        
+      
+
+    </table>
+</fieldset>
+    </form>
+
+
+
+</body>
+</html>
