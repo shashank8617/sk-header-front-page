@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: url('../HTML/images/car2.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    background-image: url('../HTML/images/car1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.circle1 {
+    animation-name: rotate1;
+}
+
+.circle2 {
+    animation-name: rotate2;
+}
+
+@keyframes rotate1 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes rotate2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(-360deg);
+    }
+}
